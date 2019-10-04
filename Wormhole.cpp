@@ -25,7 +25,7 @@ int distance(int sx,int sy,int dx,int dy)
 	return abs(sx-dx)+abs(sy-dy);
 }
 
-void fn(int sz,int sy,int dx,int dy,int dis)
+void fn(int sx,int sy,int dx,int dy,int dis)
 {
 	ans = min(ans,distance(sx,sy,dx,dy)+dis);
 	for(int i=0;i<n;i++)

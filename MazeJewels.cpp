@@ -40,7 +40,7 @@ void dfs(int x,int y,int jewels)
 
   if(a[x][y] == 2)
     maze[x][y] = 2;
-  else if(a[x][y] == 0)
+  else 
     maze[x][y] = 0;
 
 }
